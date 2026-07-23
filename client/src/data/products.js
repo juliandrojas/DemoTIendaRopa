@@ -32,7 +32,7 @@ export const products = [
     name: "Pantalón Gris",
     category: "Pantalones",
     price: 99000,
-    discount: 0,
+    discount: 0.5,
     image:
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500&q=80",
   },

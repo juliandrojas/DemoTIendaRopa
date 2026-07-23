@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Catalog from "./Catalog";
-import Promotions from "./Promotions";
 import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Benefits from "../components/Benefits";
 
 export default function Home() {
   return (
@@ -10,14 +11,11 @@ export default function Home() {
       <Navbar brandName="Catálogo de Moda" />
 
       <main className="flex-grow-1">
-        {/* 1. Catálogo General Primero */}
+        <Hero />
+        <Benefits />
+        {/* Catálogo General Primero */}
         <section id="catalogo">
           <Catalog />
-        </section>
-
-        {/* 2. Promociones / Descuentos Después */}
-        <section id="promos">
-          <Promotions />
         </section>
       </main>
 
