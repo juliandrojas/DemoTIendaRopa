@@ -59,6 +59,7 @@
     "[jsonc]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
+    "conventionalCommits.scopes": ["footer"],
   },
 
   // --- EXTENSIONES RECOMENDADAS PARA EL EQUIPO/WORKSPACE ---

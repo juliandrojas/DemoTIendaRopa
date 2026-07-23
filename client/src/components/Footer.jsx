@@ -42,7 +42,6 @@ export default function Footer({ brandName = "Mi Tienda" }) {
           {/* WhatsApp / Atención rápida */}
           <div className="col-12 col-md-4 text-center text-md-end">
             <a
-              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-success px-3 py-2 fs-7 fw-medium rounded-pill shadow-sm d-inline-flex align-items-center justify-content-center gap-1"
